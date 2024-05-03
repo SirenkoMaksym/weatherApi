@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="nav">
+      <a href="//weatherApi/select/index.html">Выбор города </a>
+      <a href="../index.html">Главная </a>
+      <a href="/weatherApi/lesson024/index.html">Weather in Europa </a>
+    </div>
+  </div>
+  <main>
+    <div id="loader" class="loader" style="display: none"></div>
+    <form id="cityForm">
+      <select id="citySelect" class="citySelect">
+        <option value="">Select a city</option>
+        <option value="51.5074, -0.1278, London">London</option>
+        <option value="48.8566, 2.3522, Paris">Paris</option>
+        <option value="52.52, 13.405, Berlin">Berlin</option>
+        <option value="40.4168, -3.7038, Madrid">Madrid</option>
+        <option value="41.9028, 12.4964, Rome">Rome</option>
+        <option value="37.9838, 23.7275, Athens">Athens</option>
+        <option value="52.3676, 4.9041, Amsterdam">Amsterdam</option>
+        <option value="48.2082, 16.3738, Vienna">Vienna</option>
+      </select>
+      <button class="citySelect" id="btn" type="submit">Get Weather</button>
+    </form>
+  </main>
+  <footer>
+    <h3>Здесь мне надоело делать футер</h3>
+  </footer>
+</body>
+
+</html>
